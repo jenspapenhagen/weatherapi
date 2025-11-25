@@ -1,3 +1,26 @@
+server:
+  port: 8080
+
+openweather:
+  api-key: ${OPENWEATHER_API_KEY:}
+  base-url: ${OPENWEATHER_BASE_URL:https://api.openweathermap.org/data/2.5}
+
 spring:
   application:
     name: weatherapi
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:}
+      model: gpt-5.1
+
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: health,info,prometheus
+
+  otel:
+    exporter:
+      otlp:
+        endpoint: ${OTEL_EXPORTER_OTLP_ENDPOINT:http://otel-collector:4317}
