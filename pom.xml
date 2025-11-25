@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.papenhagen</groupId>
     <artifactId>weatherapi</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>weatherapi</name>
     <description>Demo project for Spring Boot</description>
 
