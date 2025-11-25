@@ -62,16 +62,11 @@
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-tracing-bridge-otel</artifactId>
         </dependency>
-        <!-- Actuator -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
 
-        <!-- Micrometer Tracing bridge for OpenTelemetry -->
         <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-tracing-bridge-otel</artifactId>
+            <groupId>io.github.giovannicaggianella</groupId>
+            <artifactId>spring-boot-starter-toon</artifactId>
+            <version>0.2.0</version>
         </dependency>
 
         <!-- TEST -->
