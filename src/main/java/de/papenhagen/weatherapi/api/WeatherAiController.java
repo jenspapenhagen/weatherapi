@@ -3,7 +3,7 @@ package de.papenhagen.weatherapi.api;
 
 import de.papenhagen.weatherapi.ai.OpenAiService;
 import de.papenhagen.weatherapi.weather.OpenWeatherClient;
-import de.papenhagen.weatherapi.weather.OpenWeatherResponse;
+import de.papenhagen.weatherapi.weather.model.OpenWeatherResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
