@@ -24,7 +24,7 @@ public class OpenWeatherClient {
                     .retrieve()
                     .body(OpenWeatherResponse.class);
         } catch (RestClientException e) {
-            throw new RuntimeException("Failed to fetch weather for " + city, e);
+            throw new IllegalCallerException("Failed to fetch weather for " + city, e);
         }
     }
 }
