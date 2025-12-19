@@ -10,7 +10,7 @@
 
     <properties>
         <java.version>25</java.version>
-        <spring.boot.version>4.0.0</spring.boot.version>
+        <spring.boot.version>4.0.1</spring.boot.version>
         <spring.ai.version>1.1.0</spring.ai.version>
         <maven.compiler.release>${java.version}</maven.compiler.release>
     </properties>
